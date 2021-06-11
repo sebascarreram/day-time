@@ -1,0 +1,21 @@
+.nav {
+  @include respond(phone){
+    margin-top: 1rem;
+  }
+  &__link {
+    &:not(:last-of-type) {
+      margin-right: 1rem;
+    }
+    &:link,
+    &:visited {
+      font-size: 1.6rem;
+      text-decoration: none;
+      color: #000;
+      border-bottom: 1px solid transparent;
+      transition: all 0.2s;
+      &:hover {
+        border-bottom: 1px solid #000;
+      }
+    }
+  }
+}

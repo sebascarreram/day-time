@@ -1,0 +1,25 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  //transition: 0.3s;
+  max-width: 31rem;
+  width: 100%;
+  height: 50rem;
+  position: relative;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all .2s;
+
+  &__text {
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 17rem;
+    text-align: end;
+  }
+}
