@@ -1,10 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import "./sass/main.scss";
 import Nav from "./components/Navigation/Navigation";
 import Logo from "./components/Logo/Logo";
 import Card from "./components/Card/Card";
 
-class Header extends React.Component {
+class Header extends Component {
   render() {
     //    console.log(this.props);
     const {
@@ -22,7 +22,7 @@ class Header extends React.Component {
   }
 }
 
-class Main extends React.Component {
+class Main extends Component {
   showDate = () => {
     const months = [
       "January",
@@ -128,7 +128,7 @@ class Main extends React.Component {
   }
 }
 
-class App extends React.Component {
+class App extends Component {
   render() {
     const data = {
       author: {

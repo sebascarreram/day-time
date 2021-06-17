@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import NavigationLink from "./NavigationLink/NavigationLink";
 
-class Nav extends React.Component {
+class Nav extends Component {
   state = {
     loggedIn: false,
   };
